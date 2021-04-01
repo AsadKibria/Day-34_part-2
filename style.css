@@ -1,0 +1,231 @@
+/* Deafult css */
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.fix_width{
+    width: 1270px;
+    margin: auto;
+}
+
+.text_center{
+    text-align: center;
+}
+.text_left{
+    text-align: left;
+}
+.text_right{
+    text-align: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header css */
+.header{
+background: rgb(28, 53, 100);
+}
+.header_left{
+    float: left;
+    width: 30%;
+}
+.header_left img{
+    width: 210px;
+    height: auto;
+}
+
+
+.header_right{
+    float: right;
+    width: 70%;
+}
+
+.header_right ul{
+    text-align: right;
+}
+.header_right ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.header_right ul li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 74px;
+    border-left: 1px solid;
+    transition: 0.6s;
+}
+
+.header_right ul li a:hover{
+    background: rgb(46, 98, 196);
+    
+}
+
+/* Banner */
+.banner{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 0;
+
+}
+.banner_caption{}
+.banner_caption h2{
+        background: #47545b;
+        color: #feffff;
+        display: inline-block;
+        border-radius: 5px;
+        padding: 5px 30px;
+        font-size: 27px;
+        box-shadow: 2px 4px 9px #040606
+    }
+.banner_caption h1{
+    background: #00395b;
+    color: #feffff;
+    border-radius: 5px;
+    padding: 5px 0px;
+    max-width: 420px;
+    margin: auto;
+        margin-top: auto;
+    margin-top: 20px;
+    font-size: 36px;
+    box-shadow: 2px 4px 9px black;
+}
+
+/* About  */
+.about{
+    margin-top: 60px;
+}
+.about h2{
+    font-size: 39px;
+    margin-bottom: 27px;
+
+}
+.about p{
+    max-width: 600px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 32px;
+}
+/* service section */
+
+.service{
+    margin-top: 85px;
+}
+.service_item{
+    float: left;
+    width: 31.3%;
+    border: 1px solid;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 25px 10px;
+}
+
+.service_item span{
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background: #176b9a;
+    display: block;
+    margin: auto;
+    font-size: 38px;
+    line-height: 60px;
+    border-radius: 20px 3px 20px 3px;
+}
+.service_item h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.service_item p{}
+
+
+/* Blog container */
+.blog_container{
+    margin: 28px 0;
+}
+   
+.blog_left{
+    float: left;
+    width: 70%;
+    
+}
+.blog_item{
+    margin: 41px 0;
+}
+.blog_item img{
+    float: left;
+    width: 160px;
+    height: auto;
+    margin-right: 20px;
+}
+.blog_item p{
+    font-size: 17px;
+line-height: 23px;
+}
+
+
+.blog_left_nf{
+    float: right;
+    width: 25%;
+}
+.blog_left_nf h2{
+    font-size: 32px;
+    border-bottom: 1px solid #333739;
+    margin-bottom: 30px;
+    padding: 6px;
+    width: 116px;
+    height: auto;
+}
+.blog_left_nf ul{
+    list-style: none;
+}
+.blog_left_nf ul li{
+    font-size: 19px;
+    padding: 13px 13px;
+    border: 1px solid;
+    display: inline flow-root list-item;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+
+/* Footer */
+.footer{
+    width:100%;
+    height: 100px;
+    background: rgba(21, 36, 43, 0.795);
+}
+
+.footer .footerLeft{
+    float: left;
+}
+.footerLeft p{
+    color: white;
+    font-size: 20px;
+    line-height: 100px;
+    display: inline;
+}
+.footerRight{
+    float: right;
+}
+.footerRight ul li{
+    display: inline-block;
+    font-size: 31px;
+    line-height: 100px;
+    padding: 0 11px;
+}
+.footerRight ul li a{
+    color: rgb(255, 255, 255);
+}
